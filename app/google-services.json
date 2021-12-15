@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032429736890",
+    "project_id": "lifting-app-cf0da",
+    "storage_bucket": "lifting-app-cf0da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032429736890:android:bf7679c11288a0c0c24383",
+        "android_client_info": {
+          "package_name": "com.example.liftingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032429736890-s3lctcpdqjtpeo6ahign3umhv0no9j7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAmZw7JADrhWnswI5OBgayMub9yS-zmSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032429736890-s3lctcpdqjtpeo6ahign3umhv0no9j7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
