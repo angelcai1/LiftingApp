@@ -3,6 +3,7 @@ package com.example.liftingapp.UI;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -14,6 +15,7 @@ import android.widget.EditText;
 
 import com.example.liftingapp.R;
 import com.example.liftingapp.databinding.FragmentLogInBinding;
+import com.example.liftingapp.viewmodels.MaxesViewModel;
 import com.google.firebase.auth.FirebaseAuth;
 
 
@@ -46,6 +48,7 @@ public class LogInFragment extends Fragment {
                         passText.getText().toString()
                 ).addOnCompleteListener((task) -> {
                     if (task.isSuccessful()) {
+
                         controller.navigate(R.id.action_logInFragment_to_homeScreenFragment);
                     } else {
                         binding.errorLog.setText(task.getException().getLocalizedMessage());

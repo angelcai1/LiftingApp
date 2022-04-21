@@ -8,9 +8,9 @@ public class Maxes {
     private String squat;
     private String email;
     private FieldValue created;
+
     public Maxes(){
     }
-
     public Maxes(String bench, String deadlift, String squat, String email, FieldValue created){
         this.bench = bench;
         this.deadlift = deadlift;
@@ -35,6 +35,6 @@ public class Maxes {
     }
 
     public FieldValue getCreated() {
-        return this.created;
+        return created;
     }
 }

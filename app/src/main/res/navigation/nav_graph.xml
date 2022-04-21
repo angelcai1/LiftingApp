@@ -35,5 +35,17 @@
         <action
             android:id="@+id/action_homeScreenFragment_to_logInFragment"
             app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_homeScreenFragment_to_weightPercentFragment"
+            app:destination="@id/weightPercentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weightPercentFragment"
+        android:name="com.example.liftingapp.UI.WeightPercentFragment"
+        android:label="fragment_weight_percent"
+        tools:layout="@layout/fragment_weight_percent" >
+        <action
+            android:id="@+id/action_weightPercentFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment" />
     </fragment>
 </navigation>
